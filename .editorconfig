@@ -16,3 +16,8 @@ indent_style = tab
 
 [*.md]
 trim_trailing_whitespace = false
+
+# Ignore these files
+[{LICENSE,build/database/*,src/Alloy.Mvc.Template/Static/**}]
+indent_style = unset
+indent_size = unset
